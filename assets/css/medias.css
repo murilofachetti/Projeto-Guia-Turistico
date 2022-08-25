@@ -1,0 +1,62 @@
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) and (min-width: 0px) */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) and (max-width: 767px) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) and (max-width: 991px) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
+
+/*  */
+/*  */
+
+@media screen and (max-width: 991px) and (min-width: 0px) {
+  #navbarSupportedContent {
+    background-color: grey;
+    border-radius: 5px;
+}
+}
+
+@media screen and  (max-width: 1000px) and (min-width: 0px) {
+  .nav-item {
+  opacity: 1;
+  font-weight: 600;
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 0px) {
+  .container01, .container02, .container03, .container04 {
+    text-align: justify;
+    width: 100vw;
+    display: block;
+}
+}
+
+@media screen and (min-width: 1088px) {
+  .linha01, .linha02 {
+    display: inline-flex;
+}
+}
+
+@media screen and (max-width: 600px) and (min-width: 0px) {
+  .listahoteis {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 630px) and (min-width: 0px) {
+  .typing-animation {
+    white-space: break-spaces;
+    overflow: hidden;
+    border-right: 2px solid transparent;
+    animation: titulocursor 500ms steps(50) infinite normal, typing 4s steps(50) 1s normal both;
+}
+}

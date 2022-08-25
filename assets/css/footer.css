@@ -1,0 +1,38 @@
+                /* FOOTER config */
+footer {
+  margin: 0;
+  height: auto;
+  width: auto;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #2e2d2d;
+  opacity: 0.9;  
+  overflow: hidden;
+}
+
+/* Animação icones */
+.iconsfooter>li>a>i:hover {
+  animation: .5s pulse 2 ease-out, 3s shadow 1 ease-out;
+}
+/* Animação icones */
+
+.iconsfooter>li {
+  display: block;
+  list-style: none;
+  float: left;
+  padding: 25px 16px;
+}
+
+.fa-brands, .fab {
+  font-size: 30px;
+  color: white;
+}
+
+.footerdir {
+  color: white;
+  font-size: 10px;
+  float: right;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+                /* FOOTER config */
