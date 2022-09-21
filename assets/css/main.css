@@ -61,6 +61,7 @@ h1>p {
   overflow: hidden;
   border-right: 2px solid transparent;
   animation: titulocursor 500ms steps(50) infinite normal, typing 4s steps(50) 1s normal both;
+  animation-iteration-count: infinite;
 }
 
 @keyframes typing {
@@ -72,6 +73,7 @@ h1>p {
   }
 }
 /* Animação titulo */
+
 
 
 
@@ -119,9 +121,57 @@ h1>p {
 }
 /* Carousel config */
 
+/* Modal Config */
+.t-modal{
+  color: black;
+  font-size: 15px;
+}
+
+.t-modal .modal-content {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 3px solid transparent;
+}
+
+.t-modal .modal-header {
+  padding: 30px 15px;
+}
+
+.t-modal .modal-header {
+  border-color: #069dd0;
+}
+
+.t-modal .modal-title {
+  font-size: 35px;
+}
+
+.t-modal.primary .modal-header{
+  background-color: #069dd0;
+  opacity: 0.7;
+}
+
 .modal-body>p {
   text-align: justify;
 }
+/* Modal Config */
+
+/* Slicker Config */
+
+.listaturismo {
+  width: 100%;
+}
+
+.listaturismo, .listaturismo img {
+  height: 150px;
+}
+
+.imagemturismo > img {
+  overflow: hidden;
+  box-shadow: 2px 2px 4px grey;
+}
+/* Slicker Config */
 
               /* CONTAINER02 config */
 
@@ -144,14 +194,6 @@ h1>p {
   justify-content: center;
   padding: 0;
 }
-
-/* .listahoteis>.linha01 {
-  float: right;
-}
-
-.listahoteis>.linha02 {
-  float: left;
-} */
 
 .listahoteis>.linha01>li>ul {
   list-style: none;
@@ -238,6 +280,28 @@ form {
   padding-bottom: 10px;
 }
 
+/* Spinner Config */
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Spinner Config */
                 /* CONTAINER04 config */
 
 .divisor {
