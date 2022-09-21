@@ -16,6 +16,13 @@
 
 
 <body>
+  <!-- início do preloader -->
+  <div id="preloader">
+    <div class="inner">
+      <img src="https://img.icons8.com/wired/64/000000/flip-flops.png"/>
+    </div>
+</div>
+<!-- fim do preloader --> 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navgeral">
       <div class="container-fluid">
@@ -84,7 +91,7 @@
             impedit debitis esse aliquid, necessitatibus atque nisi doloremque possimus aut. Ut quis laboriosam a?
           </span>
         </div>
-
+        
         <div class="col-sm" id="posicar">
           <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -336,14 +343,15 @@
             <ul>
               <li>
                 <p>
-                  <img src="./assets/img/hotel04.webp" height="300" width="200" alt="">
+                  <img src="./assets/img/hotel04.webp" height="300" width="200" alt="" data-toggle="tooltip" data-placement="bottom" title="Visite clicando no botão" data-bs-trigger="focus"
+                  >
                 </p>
               </li>
               <li>
                 <p><strong>Monte Pascoal Praia Hotel</strong></p>
               </li>
               <li>
-                <p data-toggle="tooltip" data-placement="bottom" title="Visite clicando no botão"><a
+                <p ><a
                     href="https://www.montepascoalpraiahotel.com.br/pt-br/" target="_blank">Visite</a></p>
               </li>
             </ul>
@@ -361,7 +369,7 @@
       <form class="row g-3" id="cadastroForm">
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
+          <input type="email" class="form-control" placeholder="email@exemplo.com" id="inputEmail4">
         </div>
          </br>
         <div class="col-md-6">
@@ -415,7 +423,7 @@
          </br>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Telefone</label>
-          <input type="text" class="form-control" id="inputZip">
+          <input type="text" class="form-control" placeholder="(XX)XXXXX-XXXX" id="inputZip">
         </div>
         </br>
         <div class="col-12">
